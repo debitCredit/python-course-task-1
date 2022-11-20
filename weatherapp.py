@@ -38,7 +38,6 @@ class WeatherApp:
             return response
             
 
-
     @staticmethod
     def start_screen(self):
         # Print console information and request location input from the user then display forecast information.

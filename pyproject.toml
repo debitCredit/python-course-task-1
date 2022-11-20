@@ -2,7 +2,6 @@
 name = "python-course-task-1"
 version = "0.1.0"
 description = "WeatherApp"
-authors = ["damian <a.damian@gmx.com>"]
 readme = "README.md"
 packages = [{include = "python_course_task_1"}]
 

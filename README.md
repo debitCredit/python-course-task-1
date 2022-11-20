@@ -8,19 +8,23 @@ The app provides four forecast points: most immediate (+/- 1h), at 12:00 the fol
 
 ## Requirements
 
-1)  Python 3.11 or later with all requirements.txt dependencies installed:
+1)  Python 3.11 or later, install dependencies:
 ```
-pip install -r requirements.txt
+poetry install
 ```
 
-2) Create config.py script with identification information required by the API providers e.g.
+2) Set up os environment variables to identify requestor to API services. For example:
 ```
-USER_AGENT = "ExampleApp/0.0.0"
-SOURCE = "email@example.com"`
+USER_AGENT=ExampleApp/0.0.0
+SOURCE=email@example.com
 ```
 3) Read and agree to the API Usage Policies:
-   4) https://operations.osmfoundation.org/policies/nominatim/
-   5) https://api.met.no/doc/TermsOfService
+
+   a) https://operations.osmfoundation.org/policies/nominatim/
+
+   b) https://api.met.no/doc/TermsOfService
+
+
 
 
 
