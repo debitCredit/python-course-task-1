@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-course-task-1"
+version = "0.1.0"
+description = "WeatherApp"
+authors = ["damian <a.damian@gmx.com>"]
+readme = "README.md"
+packages = [{include = "python_course_task_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.28.1"
+geopy = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
